@@ -1,0 +1,342 @@
+body {
+    font-family: "roboto", sans-serif;
+    color:#2E2F42;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 120px;
+
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.header {
+display: flex;
+align-items: center;
+padding-left: 156px;
+        border-bottom: 1px solid #E7E9FC;
+        height: 72px;
+}
+
+nav {
+    background-color: #FFFFFF;
+
+}
+
+.navlist {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    margin-right: 332px;
+   }
+
+.addressbar {
+    display: flex;
+    gap: 24px;
+}
+
+
+.navbar ul li a {
+font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-decoration: none;
+
+}
+
+
+.navbar ul li a:hover, .navbar ul li a:focus {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    text-decoration: none;
+    
+}
+
+.navbar ul li a:active {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+    text-decoration: underline;
+   
+}
+
+.addressbar a {
+font-family: inherit;
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+display: flex;
+} 
+
+.addressbar a:hover, .addressbar a:focus {
+    font-family: inherit;
+        color: #404BBF;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+ 
+}
+
+h1 {
+font-family: inherit;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+}
+
+.buttontext {
+    width: 496px;
+
+  
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+
+
+}
+
+button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.buttonarea {
+    background-color:#2E2F42;
+    text-decoration: none;
+    height: 600px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            text-align: center;
+
+}
+
+.fields {
+    display: flex;
+        gap: 24px;
+        justify-content: center;
+        padding: 120px 0;
+        margin: 0 156px;
+}
+
+.fields li {
+    flex: 1;
+}
+.fields ul li h3 {
+font-family: inherit;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+}
+
+.fields ul li p {
+font-family: inherit;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+}
+
+.team h2 {
+    font-family: inherit;
+        color: #2E2F42;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        background-color: #F4F4FD;
+}
+
+.team {
+background-color: #F4F4FD;
+margin: 0 156px;
+}
+
+.team1 {
+    background-color: #F4F4FD;
+        padding: 120px 0;
+        margin-bottom: 120px;
+            text-align: center;
+}
+
+
+.team h3 {
+    font-family: inherit;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.team1 ul {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.team1 li {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1;
+}
+
+.team p {
+    font-family: inherit;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    justify-content: center;
+    margin: 0 156px;
+}
+
+.portfolio ul {
+    padding-top: 72px;
+}
+
+.portfolio li {
+    flex-basis: calc((100% - 48px) / 3);
+    border-bottom: 1px solid #E7E9FC;
+    padding-bottom: 16px;
+}
+
+.portfolio h2 {
+    font-family: inherit;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    background-color: #F4F4FD;
+}
+
+.portfolio h3 {
+    font-family: inherit;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+}
+
+.portfolio p {
+    font-family: inherit;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+}
+footer {
+    background-color:#2E2F42;
+}
+
+footer p {
+        font-family:inherit;
+        color:#F4F4FD;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        background-color: #2E2F42;
+}
+
+.logo1 {
+            font-family: "Raleway", sans-serif;
+            color: #4D5AE5;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+}
+
+.logo2 {
+    font-family: "Raleway", sans-serif;
+    color:#2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+ .logo3 {
+            font-family: "Raleway", sans-serif;
+            color: #F4F4FD;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+ #logo {
+        text-decoration: none;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-start;
+            padding: 100px 1020px 100px 156px;
+        }
