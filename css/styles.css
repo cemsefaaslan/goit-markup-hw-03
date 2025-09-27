@@ -262,12 +262,14 @@ padding: 0 120px;
 
 .portfolio ul {
     padding-top: 72px;
+
 }
 
 .portfolio li {
     flex-basis: calc((100% - 48px) / 3);
     border-bottom: 1px solid #E7E9FC;
     padding-bottom: 16px;
+        padding-bottom: 120px;
 }
 
 .portfolio h2 {
