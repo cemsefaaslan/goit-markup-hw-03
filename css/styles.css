@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,7 +24,7 @@ img {
 
 .container {
     width: 1440px;
-    margin: 0 120px;
+    margin: 0 auto;
 
 }
 
@@ -30,9 +35,15 @@ img {
 .header {
 display: flex;
 align-items: center;
-padding-left: 156px;
-        border-bottom: 1px solid #E7E9FC;
-        height: 72px;
+justify-content: flex-start;
+border-bottom: 1px solid #E7E9FC;
+padding: 36px 0;
+}
+
+#logo-header {
+    margin-left: 156px;
+    text-decoration: none;
+
 }
 
 nav {
@@ -43,13 +54,14 @@ nav {
 .navlist {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
-    margin-right: 332px;
+    padding-left: 76px;
+
    }
 
 .addressbar {
     display: flex;
-    gap: 24px;
+    gap: 40px;
+    padding-left: 332px;
 }
 
 
@@ -118,6 +130,8 @@ font-family: inherit;
 
 .buttontext {
     width: 496px;
+    padding-top: 188px;
+    padding-bottom: 48px;
 
   
 }
@@ -127,6 +141,9 @@ button {
     color: #FFFFFF;
     width: 169px;
     height: 56px;
+    margin-bottom: 188px;
+    border: 1px #2E2F42;
+    border-radius: 4px;
 
 
 }
@@ -142,7 +159,6 @@ button:hover {
 .buttonarea {
     background-color:#2E2F42;
     text-decoration: none;
-    height: 600px;
         display: flex;
             flex-direction: column;
             align-items: center;
@@ -156,8 +172,7 @@ button:hover {
     display: flex;
         gap: 24px;
         justify-content: center;
-        padding: 120px 0;
-        margin: 0 156px;
+        padding: 120px 156px;
 }
 
 .fields li {
@@ -194,13 +209,12 @@ font-family: inherit;
 
 .team {
 background-color: #F4F4FD;
-margin: 0 156px;
+padding: 0 120px;
 }
 
 .team1 {
     background-color: #F4F4FD;
         padding: 120px 0;
-        margin-bottom: 120px;
             text-align: center;
 }
 
@@ -242,7 +256,8 @@ margin: 0 156px;
     flex-wrap: wrap;
     gap: 48px 24px;
     justify-content: center;
-    margin: 0 156px;
+    padding: 120px 0 0 0;
+
 }
 
 .portfolio ul {
@@ -329,7 +344,7 @@ footer p {
             text-decoration: none;
         }
 
- #logo {
+ #logo-footer {
         text-decoration: none;
         }
 
