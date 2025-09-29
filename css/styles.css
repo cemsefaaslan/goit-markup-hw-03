@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li, ol {
     padding: 0;
 }
 
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -181,7 +189,6 @@ button:hover {
 font-family: inherit;
     color: #2E2F42;
     font-weight: 500;
-    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
@@ -200,7 +207,6 @@ font-family: inherit;
     font-family: inherit;
         color: #2E2F42;
         font-weight: 700;
-        font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         background-color: #F4F4FD;
@@ -222,7 +228,6 @@ padding: 0 120px;
     font-family: inherit;
     color: #2E2F42;
     font-weight: 500;
-    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
@@ -259,6 +264,11 @@ padding: 0 120px;
 
 }
 
+.portfolio-section {
+    padding-bottom: 120px;
+}
+
+
 .portfolio ul {
     padding-top: 72px;
 
@@ -274,7 +284,6 @@ padding: 0 120px;
     font-family: inherit;
     color: #2E2F42;
     font-weight: 700;
-    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     background-color: #F4F4FD;
@@ -284,7 +293,6 @@ padding: 0 120px;
     font-family: inherit;
     color: #2E2F42;
     font-weight: 500;
-    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
